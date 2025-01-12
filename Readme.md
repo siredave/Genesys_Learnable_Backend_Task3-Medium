@@ -1,30 +1,6 @@
 Understanding let, const, and var in JavaScript: Practical Examples and Differences
 ===================================================================================
 
-[![David Ezekiel](https://miro.medium.com/v2/da:true/resize:fill:88:88/0*_I_7Y21JAjTPVOpO)](https://medium.com/@siredave1?source=post_page---byline--64f5d37e3f65--------------------------------)
-
-[David Ezekiel](https://medium.com/@siredave1?source=post_page---byline--64f5d37e3f65--------------------------------)
-
-·
-
-[Follow](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2Fea7405f4fea4&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40siredave1%2Fturning-code-into-stories-exploring-the-heart-of-javascript-64f5d37e3f65&user=David+Ezekiel&userId=ea7405f4fea4&source=post_page-ea7405f4fea4--byline--64f5d37e3f65---------------------post_header-----------)
-
-3 min read
-
-·
-
-1 day ago
-
-[nameless link](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F64f5d37e3f65&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40siredave1%2Fturning-code-into-stories-exploring-the-heart-of-javascript-64f5d37e3f65&user=David+Ezekiel&userId=ea7405f4fea4&source=---header_actions--64f5d37e3f65---------------------clap_footer-----------)
-
---
-
-[nameless link](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F64f5d37e3f65&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40siredave1%2Fturning-code-into-stories-exploring-the-heart-of-javascript-64f5d37e3f65&source=---header_actions--64f5d37e3f65---------------------bookmark_footer-----------)
-
-Listen
-
-Share
-
 JavaScript is a versatile language with a rich set of features, but understanding the basics is crucial to writing clean, maintainable code. **Among these basics are the variable declaration keywords: let, const, and var.** While they may seem interchangeable at first glance, they have distinct characteristics that can significantly affect how your code behaves.
 
 In this article, I’ll explain the differences between _let_, _const_, and _var_, backed with practical examples to help you use them effectively.
