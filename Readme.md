@@ -5,7 +5,7 @@ JavaScript is a versatile language with a rich set of features, but understandin
 
 In this article, I’ll explain the differences between _let_, _const_, and _var_, backed with practical examples to help you use them effectively.
 
-1. The Old Guard: var
+##1. The Old Guard: var
 ======================
 
 _var_ has been around since the early days of JavaScript. It’s function-scoped, meaning its scope is limited to the function in which it is declared. However, it is not block-scoped and can lead to unexpected behaviors.
@@ -40,7 +40,7 @@ console.log(x); // 5 (x is not block-scoped)
 
 The above behavior can cause bugs in your code, especially in complex applications.
 
-2. Modern and Reliable: let
+##2. Modern and Reliable: let
 ============================
 
 Introduced in ES6 (2015), _let_ addresses the shortcomings of _var_. It is block-scoped, meaning it is only accessible within the block where it is defined.
@@ -72,7 +72,7 @@ console.log(z); // ReferenceError: Cannot access 'z' before initialization let z
 
 The temporal dead zone ensures you can’t use a let variable before declaring it, preventing bugs.
 
-3. Immutable by Default: const
+##3. Immutable by Default: const
 ===============================
 
 _const_ is also block-scoped, like _let_, but with one key difference: once a variable is assigned, its value cannot be reassigned. This makes it perfect for declaring constants or values that shouldn’t change.
